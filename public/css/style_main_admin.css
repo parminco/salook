@@ -1,0 +1,39 @@
+
+
+#dark {
+    position: fixed;
+    background: rgba(0, 0, 0, .60);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: none;
+}
+.image-box{
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .6);
+ }
+
+.success-span {
+    display: block;
+    background: #5cb85c;
+    padding: 1px;
+    width: 85px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.danger-span {
+    display: block;
+    background:#d9534f;
+    padding: 1px;
+    width: 85px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}

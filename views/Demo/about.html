@@ -1,0 +1,933 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!--=============== basic  ===============-->
+        <meta charset="UTF-8">
+        <title>Townhub - قالب HTML تبلیغاتی و ثبت آگهی</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <!--=============== css  ===============-->	
+        <link type="text/css" rel="stylesheet" href="css\reset.css">
+        <link type="text/css" rel="stylesheet" href="css\plugins.css">
+        <link type="text/css" rel="stylesheet" href="css\style.css">
+        <link type="text/css" rel="stylesheet" href="css\color.css">
+        <!--=============== favicons ===============-->
+        <link rel="shortcut icon" href="images\favicon.ico">
+    </head>
+    <body>
+        <!--loader-->
+        <div class="loader-wrap">
+            <div class="loader-inner">
+                <div class="loader-inner-cirle"></div>
+            </div>
+        </div>
+        <!--loader end-->
+        <!-- main start  -->
+        <div id="main">
+            <!-- header -->
+            <header class="main-header">
+                <!-- logo-->
+                <a href="index.html" class="logo-holder"><img src="images\logo.png" alt=""></a>
+                <!-- logo end-->
+                <!-- header-search_btn-->         
+                <div class="header-search_btn show-search-button"><i class="fal fa-search"></i><span>جستجو</span></div>
+                <!-- header-search_btn end-->
+                <!-- header opt --> 
+                <a href="dashboard-add-listing.html" class="add-list color-bg">ثبت تبلیغ <span><i class="fal fa-layer-plus"></i></span></a>
+                <div class="cart-btn   show-header-modal" data-microtip-position="bottom" role="tooltip" aria-label="Your Wishlist"><i class="fal fa-heart"></i><span class="cart-counter green-bg"></span> </div>
+                <div class="show-reg-form modal-open avatar-img" data-srcav="images/avatar/3.jpg"><i class="fal fa-user"></i>ورود</div>
+                <!-- header opt end--> 
+                <!-- lang-wrap-->
+                <div class="lang-wrap">
+                    <div class="show-lang"><span><i class="fal fa-globe-europe"></i><strong>Fa</strong></span><i class="fa fa-caret-down arrlan"></i></div>
+                    <ul class="lang-tooltip lang-action no-list-style">
+                        <li><a href="#" class="current-lan" data-lantext="Fa">فارسی</a></li>
+                        <li><a href="#" data-lantext="Fr">فرانسوی</a></li>
+                        <li><a href="#" data-lantext="Es">اسپانیایی</a></li>
+                        <li><a href="#" data-lantext="En">انگلیسی</a></li>
+                    </ul>
+                </div>
+                <!-- lang-wrap end-->                                 
+                <!-- nav-button-wrap--> 
+                <div class="nav-button-wrap color-bg">
+                    <div class="nav-button">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <!-- nav-button-wrap end-->
+                <!--  navigation --> 
+                <div class="nav-holder main-menu">
+                    <nav>
+                        <ul class="no-list-style">
+                            <li>
+                                <a href="#">خانه <i class="fa fa-caret-down"></i></a>
+                                <!--second level -->   
+                                <ul>
+                                    <li><a href="index.html">خانه 1</a></li>
+                                    <li><a href="index2.html">خانه 2</a></li>
+                                    <li><a href="index3.html">خانه 3</a></li>
+                                    <li><a href="index4.html">خانه 4</a></li>
+                                    <li><a href="index5.html">خانه 5</a></li>
+                                </ul>
+                                <!--second level end-->
+                            </li>
+                            <li>
+                                <a href="#">تبلیغات <i class="fa fa-caret-down"></i></a>
+                                <!--second level -->
+                                <ul>
+                                    <li><a href="listing.html">ستون نقشه 1</a></li>
+                                    <li><a href="listing2.html">ستون نقشه 2</a></li>
+                                    <li><a href="listing3.html">نقشه کامل 1</a></li>
+                                    <li><a href="listing4.html">نقشه کامل 2</a></li>
+                                    <li><a href="listing5.html">بدون نقشه 1</a></li>
+                                    <li><a href="listing6.html">بدون نقشه 2</a></li>
+                                    <li>
+                                        <a href="#">تکی <i class="fa fa-caret-down"></i></a>
+                                        <!--third  level  -->
+                                        <ul>
+                                            <li><a href="listing-single.html">استایل 1</a></li>
+                                            <li><a href="listing-single2.html">استایل 2</a></li>
+                                            <li><a href="listing-single3.html">استایل 3</a></li>
+                                            <li><a href="listing-single4.html">استایل 4</a></li>
+                                        </ul>
+                                        <!--third  level end-->
+                                    </li>
+                                </ul>
+                                <!--second level end-->
+                            </li>
+                            <li>
+                                <a href="blog.html">اخبار</a>
+                            </li>
+                            <li>
+                                <a href="#" class="act-link">صفحات <i class="fa fa-caret-down"></i></a>
+                                <!--second level -->   
+                                <ul>
+                                    <li>
+                                        <a href="#">فروشگاه<i class="fa fa-caret-down"></i></a>
+                                        <!--third  level  -->
+                                        <ul>
+                                            <li><a href="shop.html">محصولات</a></li>
+                                            <li><a href="product-single.html">محصول تک</a></li>
+                                            <li><a href="cart.html">سبد خرید</a></li>
+                                        </ul>
+                                        <!--third  level end-->
+                                    </li>
+                                    <li><a href="about.html">درباره ما</a></li>
+                                    <li><a href="contacts.html">تماس با ما</a></li>
+                                    <li><a href="author-single.html">کاربر</a></li>
+                                    <li><a href="help.html">ما چگونه کار میکنیم</a></li>
+                                    <li><a href="booking.html">رزرو</a></li>
+                                    <li><a href="pricing-tables.html">لیست قیمت</a></li>
+                                    <li><a href="dashboard.html">داشبورد کاربری</a></li>
+                                    <li><a href="blog-single.html">بلاگ تنها</a></li>
+                                    <li><a href="dashboard-add-listing.html">ثبت تبلیغ</a></li>
+                                    <li><a href="invoice.html">صورتحساب</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                                <!--second level end-->                                
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- navigation  end -->
+                <!-- header-search_container -->                     
+                <div class="header-search_container header-search vis-search">
+                    <div class="container small-container">
+                        <div class="header-search-input-wrap fl-wrap">
+                            <!-- header-search-input --> 
+                            <div class="header-search-input">
+                                <label><i class="fal fa-keyboard"></i></label>
+                                <input type="text" placeholder="دنبال چی میگردی؟" value="">  
+                            </div>
+                            <!-- header-search-input end -->  
+                            <!-- header-search-input --> 
+                            <div class="header-search-input location autocomplete-container">
+                                <label><i class="fal fa-map-marker"></i></label>
+                                <input type="text" placeholder="موقعیت..." class="autocomplete-input" id="autocompleteid2" value="">
+                                <a href="#"><i class="fal fa-dot-circle"></i></a>
+                            </div>
+                            <!-- header-search-input end -->                                        
+                            <!-- header-search-input --> 
+                            <div class="header-search-input header-search_selectinpt ">
+                                <select data-placeholder="Category" class="chosen-select no-radius">
+                                    <option>همه دسته بندی ها</option>
+                                    <option>همه دسته بندی ها</option>
+                                    <option>فروشگاه ها</option>
+                                    <option>هتل ها</option>
+                                    <option>رستوران ها</option>
+                                    <option>تناسب اندام</option>
+                                    <option>کنسرت ها</option>
+                                </select>
+                            </div>
+                            <!-- header-search-input end --> 
+                            <button class="header-search-button green-bg" onclick="window.location.href='listing.html'"><i class="far fa-search"></i> جستجو </button>
+                        </div>
+                        <div class="header-search_close color-bg"><i class="fal fa-long-arrow-up"></i></div>
+                    </div>
+                </div>
+                <!-- header-search_container  end --> 
+                <!-- wishlist-wrap--> 
+                <div class="header-modal novis_wishlist">
+                    <!-- header-modal-container--> 
+                    <div class="header-modal-container scrollbar-inner fl-wrap" data-simplebar="">
+                        <!--widget-posts-->
+                        <div class="widget-posts  fl-wrap">
+                            <ul class="no-list-style">
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img src="images\gallery\thumbnail\1.png" alt=""></a>  
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">کافه رستوران</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i> ایران , تهران , جردن , خیابان بهشت</a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">رستوران ها </a>   <a href="listing.html">کافه</a></div>
+                                        <div class="widget-posts-descr-score">4.1</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img src="images\gallery\thumbnail\2.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">هتل مونت پلاسا</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i> ایران , تهران , جردن , خیابان بهشت </a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">هتل ها </a>  </div>
+                                        <div class="widget-posts-descr-score">5.0</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img src="images\gallery\thumbnail\3.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">لورم ایپسوم متن ساختگی</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i>ایران , تهران , جردن , خیابان بهشت</a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">کنسرت</a> </div>
+                                        <div class="widget-posts-descr-score">4.2</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img src="images\gallery\thumbnail\4.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">بدنسازی</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i> ایران , تهران , جردن , خیابان بهشت</a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">تناسب اندام</a> <a href="listing.html">سالن ورزش</a> </div>
+                                        <div class="widget-posts-descr-score">5.0</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- widget-posts end-->
+                    </div>
+                    <!-- header-modal-container end--> 
+                    <div class="header-modal-top fl-wrap">
+                        <h4>لیست دلخواه شما : <span><strong></strong> مکان</span></h4>
+                        <div class="close-header-modal"><i class="far fa-times"></i></div>
+                    </div>
+                </div>
+                <!--wishlist-wrap end --> 
+            </header>
+            <!-- header end-->
+            <!-- wrapper-->
+            <div id="wrapper">
+                <!-- content-->
+                <div class="content">
+                    <div class="page-scroll-nav">
+                        <nav class="scroll-init color2-bg">
+                            <ul class="no-list-style">
+                                <li><a class="act-scrlink tolt" href="#sec1" data-microtip-position="left" data-tooltip="درباره ما"><i class="fal fa-building"></i></a></li>
+                                <li><a href="#sec2" class="tolt" data-microtip-position="left" data-tooltip="فیلم تبلیغاتی"><i class="fal fa-video"></i></a></li>
+                                <li><a href="#sec3" class="tolt" data-microtip-position="left" data-tooltip="تیم ما"><i class="far fa-users-crown"></i></a></li>
+                                <li><a href="#sec4" class="tolt" data-microtip-position="left" data-tooltip="چرا ما"><i class="fal fa-user-astronaut"></i></a></li>
+                                <li><a href="#sec5" class="tolt" data-microtip-position="left" data-tooltip="نظرات مشتریان"><i class="fal fa-comment-alt-smile"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--  section  -->
+                    <section class="parallax-section single-par" data-scrollax-parent="true">
+                        <div class="bg par-elem " data-bg="images/bg/30.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+                        <div class="overlay op7"></div>
+                        <div class="container">
+                            <div class="section-title center-align big-title">
+                                <h2><span>درباره شرکت ما</span></h2>
+                                <span class="section-separator"></span>
+                                <div class="breadcrumbs fl-wrap"><a href="#">خانه</a><a href="#">صفحات</a><span>درباره ما</span></div>
+                            </div>
+                        </div>
+                        <div class="header-sec-link">
+                            <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a> 
+                        </div>
+                    </section>
+                    <!--  section  end-->
+                    <section id="sec1" data-scrollax-parent="true">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2> ما چگونه کار می کنیم</h2>
+                                <div class="section-subtitle">ما کی هستیم</div>
+                                <span class="section-separator"></span>
+                                <p>برخی از بهترین نکات مربوط به سراسر شهر را از طریق همکاران و دوستان ما پیدا کنید.</p>
+                            </div>
+                            <!--about-wrap -->
+                            <div class="about-wrap">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="list-single-main-media fl-wrap" style="box-shadow: 0 9px 26px rgba(58, 87, 135, 0.2);">
+                                            <img src="images\all\55.jpg" class="respimg" alt="">
+											<a href="https://vimeo.com/7082" class="promo-link   image-popup"><i class="fal fa-video"></i><span>درباره ما</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="ab_text">
+                                            <div class="ab_text-title fl-wrap">
+                                                <h3>داستان تیم <span>عالی ما</span></h3>
+                                                <h4>برای اطلاع بیشتر درباره ما ، ویدیو را بررسی کنید .</h4>
+                                                <span class="section-separator fl-sec-sep"></span>
+                                            </div>
+                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
+                                            <p>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                                            </p>
+                                            <a href="#sec3" class="btn color2-bg float-btn custom-scroll-link">تیم ما <i class="fal fa-users"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- about-wrap end  --> 
+                            <span class="fw-separator"></span>
+                            <div class=" single-facts bold-facts fl-wrap">
+                                <!-- inline-facts -->
+                                <div class="inline-facts-wrap">
+                                    <div class="inline-facts">
+                                        <div class="milestone-counter">
+                                            <div class="stats animaper">
+                                                <div class="num" data-content="0" data-num="1254">1254</div>
+                                            </div>
+                                        </div>
+                                        <h6>بازدید کنندگان جدید هر هفته</h6>
+                                    </div>
+                                </div>
+                                <!-- inline-facts end -->
+                                <!-- inline-facts  -->
+                                <div class="inline-facts-wrap">
+                                    <div class="inline-facts">
+                                        <div class="milestone-counter">
+                                            <div class="stats animaper">
+                                                <div class="num" data-content="0" data-num="12168">12168</div>
+                                            </div>
+                                        </div>
+                                        <h6>مشتریان راضی هر ساله</h6>
+                                    </div>
+                                </div>
+                                <!-- inline-facts end -->
+                                <!-- inline-facts  -->
+                                <div class="inline-facts-wrap">
+                                    <div class="inline-facts">
+                                        <div class="milestone-counter">
+                                            <div class="stats animaper">
+                                                <div class="num" data-content="0" data-num="2172">2172</div>
+                                            </div>
+                                        </div>
+                                        <h6>جوایز برنده شد</h6>
+                                    </div>
+                                </div>
+                                <!-- inline-facts end -->
+                                <!-- inline-facts  -->
+                                <div class="inline-facts-wrap">
+                                    <div class="inline-facts">
+                                        <div class="milestone-counter">
+                                            <div class="stats animaper">
+                                                <div class="num" data-content="0" data-num="732">732</div>
+                                            </div>
+                                        </div>
+                                        <h6>لیست های جدید هر هفته</h6>
+                                    </div>
+                                </div>
+                                <!-- inline-facts end -->
+                            </div>
+                        </div>
+                    </section>
+                    <!--section end-->  
+                    <!--section  -->  
+                    <section class="gray-bg particles-wrapper">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2> فرآیند کار</h2>
+                                <div class="section-subtitle">چگونه کار می کنیم</div>
+                                <span class="section-separator"></span>
+                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                            </div>
+                            <div class="process-wrap_time-line fl-wrap">
+                                <!--process-item-->
+                                <div class="process-item_time-line">
+                                    <div class="pi_head color-bg">1</div>
+                                    <div class="pi-text fl-wrap">
+                                        <h4>تدوین یک استراتژی مؤثر</h4>
+                                        <p>چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                                <!--process-item end-->
+                                <!--process-item-->
+                                <div class="process-item_time-line">
+                                    <div class="pi_head color-bg">2</div>
+                                    <div class="pi-text fl-wrap">
+                                        <h4>توسعه و ادغام وب سایت</h4>
+                                        <p>چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                                <!--process-item end-->
+                                <!--process-item-->
+                                <div class="process-item_time-line">
+                                    <div class="pi_head color-bg">3</div>
+                                    <div class="pi-text fl-wrap">
+                                        <h4>تست و پشتیبانی حرفه ای</h4>
+                                        <p>چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                                <!--process-item end-->                                                            
+                            </div>
+                            <a href="#" class="btn color2-bg">مشاهده جزئیات بیشتر<i class="fal fa-angle-left"></i></a>
+                        </div>
+                        <div id="particles-js" class="particles-js"></div>
+                    </section>
+                    <!--section end-->  
+                    <!--section  -->  
+                    <section class="parallax-section video-section" data-scrollax-parent="true" id="sec2">
+                        <div class="bg par-elem " data-bg="images/bg/34.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+                        <div class="overlay op7"></div>
+                        <!--container-->
+                        <div class="container">
+                            <div class="video_section-title fl-wrap">
+                                <h4>تولید کننده لورم ایپسوم</h4>
+                                <h2>برای شروع سفر هیجان انگیز خود آماده شوید. <br> آژانس ما شما را در دنیای شگفت انگیز دیجیتال هدایت می کند</h2>
+                            </div>
+                            <a href="https://vimeo.com/7062" class="promo-link big_prom   image-popup"><i class="fal fa-play"></i><span>فیلم تبلیغاتی</span></a>
+                        </div>
+                    </section>
+                    <!--section end-->  
+                    <!--section -->  
+                    <section id="sec3">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2> تیم ما</h2>
+                                <div class="section-subtitle">کارمندان</div>
+                                <span class="section-separator"></span>
+                                <p>برخی از بهترین نکات مربوط به سراسر شهر را از طریق همکاران و دوستان ما پیدا کنید.</p>
+                            </div>
+                            <div class="about-wrap team-box2 fl-wrap">
+                                <!-- team-item -->
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="images\team\2.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <h3><a href="#"> تیلور رابرتز</a></h3>
+                                        <h4>مشاور کسب و کار</h4>
+                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.  </p>
+                                        <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- team-item  end-->
+                                <!-- team-item -->
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="images\team\3.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <h3><a href="#"> آستین ایون </a></h3>
+                                        <h4>عکاس</h4>
+                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.  </p>
+                                        <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- team-item end  -->
+                                <!-- team-item -->
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="images\team\4.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <h3><a href="#">آلیسا گری</a></h3>
+                                        <h4>مدیر مشترک</h4>
+                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.  </p>
+                                        <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- team-item end  -->
+                            </div>
+                        </div>
+                        <div class="waveWrapper waveAnimation">
+                          <div class="waveWrapperInner bgMiddle">
+                            <div class="wave-bg-anim waveMiddle" style="background-image: url('images/wave-top.png')"></div>
+                          </div>
+                          <div class="waveWrapperInner bgBottom">
+                            <div class="wave-bg-anim waveBottom" style="background-image: url('images/wave-top.png')"></div>
+                          </div>
+                        </div> 						
+                    </section>
+                    <!--section end-->  
+                    <!--section  -->  
+                    <section class="gray-bg">
+                        <div class="container">
+                            <div class="clients-carousel-wrap fl-wrap">
+                                <div class="cc-btn   cc-prev"><i class="fal fa-angle-left"></i></div>
+                                <div class="cc-btn cc-next"><i class="fal fa-angle-right"></i></div>
+                                <div class="clients-carousel">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <!--client-item-->
+                                            <div class="swiper-slide">
+                                                <a href="#" class="client-item"><img src="images\clients\1.png" alt=""></a>
+                                            </div>
+                                            <!--client-item end-->
+                                            <!--client-item-->
+                                            <div class="swiper-slide">
+                                                <a href="#" class="client-item"><img src="images\clients\2.png" alt=""></a>
+                                            </div>
+                                            <!--client-item end-->
+                                            <!--client-item-->
+                                            <div class="swiper-slide">
+                                                <a href="#" class="client-item"><img src="images\clients\3.png" alt=""></a>
+                                            </div>
+                                            <!--client-item end-->
+                                            <!--client-item-->
+                                            <div class="swiper-slide">
+                                                <a href="#" class="client-item"><img src="images\clients\1.png" alt=""></a>
+                                            </div>
+                                            <!--client-item end-->
+                                            <!--client-item-->
+                                            <div class="swiper-slide">
+                                                <a href="#" class="client-item"><img src="images\clients\2.png" alt=""></a>
+                                            </div>
+                                            <!--client-item end-->
+                                            <!--client-item-->
+                                            <div class="swiper-slide">
+                                                <a href="#" class="client-item"><img src="images\clients\3.png" alt=""></a>
+                                            </div>
+                                            <!--client-item end-->                                                                                                                                                                                                                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--section end-->  
+                    <!--section  -->  
+                    <section class="parallax-section" data-scrollax-parent="true" id="sec4">
+                        <div class="bg par-elem " data-bg="images/bg/33.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+                        <div class="overlay op7"></div>
+                        <!--container-->
+                        <div class="container">
+                            <div class="section-title center-align big-title">
+                                <h2><span>چرا ما را انتخاب کنید</span></h2>
+                                <span class="section-separator"></span>
+                                <h4>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه.</h4>
+                            </div>
+                        </div>
+                    </section>
+                    <!--section end-->  
+                    <!--section  -->  
+                    <section class="gray-bg absolute-wrap_section">
+                        <div class="container">
+                            <div class="absolute-wrap fl-wrap">
+                                <!-- features-box-container --> 
+                                <div class="features-box-container fl-wrap">
+                                    <div class="row">
+                                        <!--features-box --> 
+                                        <div class="col-md-4">
+                                            <div class="features-box">
+                                                <div class="time-line-icon">
+                                                    <i class="fal fa-headset"></i>
+                                                </div>
+                                                <h3>پشتیبانی 24 ساعته</h3>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه.    </p>
+                                            </div>
+                                        </div>
+                                        <!-- features-box end  --> 
+                                        <!--features-box --> 
+                                        <div class="col-md-4">
+                                            <div class="features-box gray-bg">
+                                                <div class="time-line-icon">
+                                                    <i class="fal fa-users-cog"></i>
+                                                </div>
+                                                <h3>پنل مدیریت</h3>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه.   </p>
+                                            </div>
+                                        </div>
+                                        <!-- features-box end  --> 
+                                        <!--features-box --> 
+                                        <div class="col-md-4">
+                                            <div class="features-box ">
+                                                <div class="time-line-icon">
+                                                    <i class="fal fa-mobile"></i>
+                                                </div>
+                                                <h3>دوستانه</h3>
+                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه.  </p>
+                                            </div>
+                                        </div>
+                                        <!-- features-box end  -->  
+                                    </div>
+                                </div>
+                                <!-- features-box-container end  -->                             
+                            </div>
+                            <div class="section-separator"></div>
+                        </div>
+                    </section>
+                    <!--section end-->  
+                    <!--section  -->  
+                    <section id="sec5">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2> نظرات مشتریان</h2>
+                                <div class="section-subtitle">بررسی مشتریان</div>
+                                <span class="section-separator"></span>
+                                <p>برخی از بهترین نکات مربوط به سراسر شهر را از طریق همکاران و دوستان ما پیدا کنید.</p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="testimonilas-carousel-wrap fl-wrap">
+                            <div class="listing-carousel-button listing-carousel-button-next"><i class="fas fa-caret-right"></i></div>
+                            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fas fa-caret-left"></i></div>
+                            <div class="testimonilas-carousel">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <!--testi-item-->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item fl-wrap">
+                                                <div class="testi-avatar"><img src="images\avatar\4.jpg" alt=""></div>
+                                                <div class="testimonilas-text fl-wrap">
+                                                    <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                                    <p>"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته. "</p>
+                                                    <a href="#" class="testi-link" target="_blank">از طریق فیسبوک</a>
+                                                    <div class="testimonilas-avatar fl-wrap">
+                                                        <h3>سنتا سیمپسون</h3>
+                                                        <h4>صاحب رستوران</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--testi-item end-->
+                                        <!--testi-item-->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item fl-wrap">
+                                                <div class="testi-avatar"><img src="images\avatar\4.jpg" alt=""></div>
+                                                <div class="testimonilas-text fl-wrap">
+                                                    <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                                    <p>"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته. "</p>
+                                                    <a href="#" class="testi-link" target="_blank">از طریق فیسبوک</a>
+                                                    <div class="testimonilas-avatar fl-wrap">
+                                                        <h3>سنتا سیمپسون</h3>
+                                                        <h4>صاحب رستوران</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--testi-item end-->
+                                        <!--testi-item-->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item fl-wrap">
+                                                <div class="testi-avatar"><img src="images\avatar\4.jpg" alt=""></div>
+                                                <div class="testimonilas-text fl-wrap">
+                                                    <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                                    <p>"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته. "</p>
+                                                    <a href="#" class="testi-link" target="_blank">از طریق فیسبوک</a>
+                                                    <div class="testimonilas-avatar fl-wrap">
+                                                        <h3>سنتا سیمپسون</h3>
+                                                        <h4>صاحب رستوران</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--testi-item end-->
+                                        <!--testi-item-->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item fl-wrap">
+                                                <div class="testi-avatar"><img src="images\avatar\4.jpg" alt=""></div>
+                                                <div class="testimonilas-text fl-wrap">
+                                                    <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                                    <p>"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته. "</p>
+                                                    <a href="#" class="testi-link" target="_blank">از طریق فیسبوک</a>
+                                                    <div class="testimonilas-avatar fl-wrap">
+                                                        <h3>سنتا سیمپسون</h3>
+                                                        <h4>صاحب رستوران</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--testi-item end-->
+                                        <!--testi-item-->
+                                        <div class="swiper-slide">
+                                            <div class="testi-item fl-wrap">
+                                                <div class="testi-avatar"><img src="images\avatar\4.jpg" alt=""></div>
+                                                <div class="testimonilas-text fl-wrap">
+                                                    <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                                    <p>"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته. "</p>
+                                                    <a href="#" class="testi-link" target="_blank">از طریق فیسبوک</a>
+                                                    <div class="testimonilas-avatar fl-wrap">
+                                                        <h3>سنتا سیمپسون</h3>
+                                                        <h4>صاحب رستوران</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--testi-item end-->                                                          
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tc-pagination"></div>
+                        </div>
+                    </section>
+                    <!--section end-->  
+                </div>
+                <!--content end-->
+            </div>
+            <!-- wrapper end-->
+            <!--footer -->
+            <footer class="main-footer fl-wrap">
+                <!-- footer-header-->
+                <div class="footer-header fl-wrap grad ient-dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="subscribe-header">
+                                    <h3>برای عضویت در <span>خبرنامه</span></h3>
+                                    <p>آیا می خواهید در مورد مکان های جدید مطلع شوید؟ فقط ثبت نام کنید.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="subscribe-widget">
+                                    <div class="subcribe-form">
+                                        <form id="subscribe">
+                                            <input class="enteremail fl-wrap" name="email" id="subscribe-email" placeholder="ایمیل خود را وارد کنید" spellcheck="false" type="text">
+                                            <button type="submit" id="subscribe-button" class="subscribe-button"><i class="fal fa-envelope"></i></button>
+                                            <label for="subscribe-email" class="subscribe-message"></label>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-header end-->
+                <!--footer-inner-->
+                <div class="footer-inner   fl-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <!-- footer-widget-->
+                            <div class="col-md-4">
+                                <div class="footer-widget fl-wrap">
+                                    <div class="footer-logo"><a href="index.html"><img src="images\logo.png" alt=""></a></div>
+                                    <div class="footer-contacts-widget fl-wrap">
+                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.   </p>
+                                        <ul class="footer-contacts fl-wrap no-list-style">
+                                            <li><span><i class="fal fa-envelope"></i> ایمیل :</span><a href="#" target="_blank">yourmail@domain.com</a></li>
+                                            <li> <span><i class="fal fa-map-marker"></i> آدرس :</span><a href="#" target="_blank">ایران , تهران , خیابان آزادی</a></li>
+                                            <li><span><i class="fal fa-phone"></i> تلفن :</span><a href="#">02198765432</a></li>
+                                        </ul>
+                                        <div class="footer-social">
+                                            <span>ما را دنبال کنید: </span>
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- footer-widget end-->
+                            <!-- footer-widget-->
+                            <div class="col-md-4">
+                                <div class="footer-widget fl-wrap">
+                                    <h3>آخرین اخبار ما</h3>
+                                    <div class="footer-widget-posts fl-wrap">
+                                        <ul class="no-list-style">
+                                            <li class="clearfix">
+                                                <a href="#" class="widget-posts-img"><img src="images\all\4.jpg" class="respimg" alt=""></a>
+                                                <div class="widget-posts-descr">
+                                                    <a href="#" title="">لورم ایپسوم متن ساختگی با تولید</a>
+                                                    <span class="widget-posts-date"><i class="fal fa-calendar"></i> 21 اسفند 09.05 </span> 
+                                                </div>
+                                            </li>
+                                            <li class="clearfix">
+                                                <a href="#" class="widget-posts-img"><img src="images\all\2.jpg" class="respimg" alt=""></a>
+                                                <div class="widget-posts-descr">
+                                                    <a href="#" title=""> سادگی نامفهوم از صنعت چاپ</a>
+                                                    <span class="widget-posts-date"><i class="fal fa-calendar"></i> 7 اسفند 18.21 </span> 
+                                                </div>
+                                            </li>
+                                            <li class="clearfix">
+                                                <a href="#" class="widget-posts-img"><img src="images\all\7.jpg" class="respimg" alt=""></a>
+                                                <div class="widget-posts-descr">
+                                                    <a href="#" title="">استفاده از طراحان گرافیک است</a>
+                                                    <span class="widget-posts-date"><i class="fal fa-calendar"></i> 7 اسفند 16.42 </span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <a href="blog.html" class="footer-link">همه اخبار <i class="fal fa-long-arrow-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- footer-widget end-->
+                            <!-- footer-widget  -->
+                            <div class="col-md-4">
+                                <div class="footer-widget fl-wrap ">
+                                    <h3>توییتر ما</h3>
+                                    <div class="twitter-holder fl-wrap scrollbar-inner2" data-simplebar="" data-simplebar-auto-hide="false">
+                                        <div id="footer-twiit"></div>
+                                    </div>
+                                    <a href="#" class="footer-link twitter-link" target="_blank">ما را دنبال کنید <i class="fal fa-long-arrow-left"></i></a>
+                                </div>
+                            </div>
+                            <!-- footer-widget end-->
+                        </div>
+                    </div>
+                    <!-- footer bg-->
+                    <div class="footer-bg" data-ran="4"></div>
+                    <div class="footer-wave">
+                        <svg viewbox="0 0 100 25">
+                            <path fill="#fff" d="M0 30 V12 Q30 6 55 12 T100 11 V30z"></path>
+                        </svg>
+                    </div>
+                    <!-- footer bg  end-->
+                </div>
+                <!--footer-inner end -->
+                <!--sub-footer-->
+                <div class="sub-footer  fl-wrap">
+                    <div class="container">
+                        <div class="copyright"> &#169; Townhub 2020. کلیه حقوق محفوظ است.</div>
+                        <div class="lang-wrap">
+                            <div class="show-lang"><span><i class="fal fa-globe-europe"></i><strong>fa</strong></span><i class="fa fa-caret-down arrlan"></i></div>
+                            <ul class="lang-tooltip lang-action no-list-style">
+                                <li><a href="#" class="current-lan" data-lantext="Fa">فارسی</a></li>
+                                <li><a href="#" data-lantext="Fr">فرانسوی</a></li>
+                                <li><a href="#" data-lantext="Es">اسپانیایی</a></li>
+                                <li><a href="#" data-lantext="En">انگلیسی</a></li>
+                            </ul>
+                        </div>
+                        <div class="subfooter-nav">
+                            <ul class="no-list-style">
+                                <li><a href="#">شرایط استفاده</a></li>
+                                <li><a href="#">سیاست حفظ حریم خصوصی</a></li>
+                                <li><a href="#">وبلاگ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--sub-footer end -->
+            </footer>
+            <!--footer end -->  
+            <!--register form -->
+            <div class="main-register-wrap modal">
+                <div class="reg-overlay"></div>
+                <div class="main-register-holder tabs-act">
+                    <div class="main-register fl-wrap  modal_main">
+                        <div class="main-register_title">به شهر <span><strong>تبلیغ </strong>خوش آمدید<strong>.</strong></span></div>
+                        <div class="close-reg"><i class="fal fa-times"></i></div>
+                        <ul class="tabs-menu fl-wrap no-list-style">
+                            <li class="current"><a href="#tab-1"><i class="fal fa-sign-in-alt"></i> وارد شدن</a></li>
+                            <li><a href="#tab-2"><i class="fal fa-user-plus"></i> ثبت نام</a></li>
+                        </ul>
+                        <!--tabs -->                       
+                        <div class="tabs-container">
+                            <div class="tab">
+                                <!--tab -->
+                                <div id="tab-1" class="tab-content first-tab">
+                                    <div class="custom-form">
+                                        <form method="post" name="registerform">
+                                            <label>نام کاربری یا آدرس ایمیل <span>*</span> </label>
+                                            <input name="email" type="text" onclick="this.select()" value="">
+                                            <label>کلمه عبور <span>*</span> </label>
+                                            <input name="password" type="password" onclick="this.select()" value="">
+                                            <button type="submit" class="btn float-btn color2-bg"> وارد <i class="fas fa-caret-left"></i></button>
+                                            <div class="clearfix"></div>
+                                            <div class="filter-tags">
+                                                <input id="check-a3" type="checkbox" name="check">
+                                                <label for="check-a3">مرا به خاطر بسپار</label>
+                                            </div>
+                                        </form>
+                                        <div class="lost_password">
+                                            <a href="#">رمزعبور خود را گم کردید؟</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--tab end -->
+                                <!--tab -->
+                                <div class="tab">
+                                    <div id="tab-2" class="tab-content">
+                                        <div class="custom-form">
+                                            <form method="post" name="registerform" class="main-register-form" id="main-register-form2">
+                                                <label>نام و نام خانوادگی <span>*</span> </label>
+                                                <input name="name" type="text" onclick="this.select()" value="">
+                                                <label>آدرس ایمیل <span>*</span></label>
+                                                <input name="email" type="text" onclick="this.select()" value="">
+                                                <label>کلمه عبور <span>*</span></label>
+                                                <input name="password" type="password" onclick="this.select()" value="">
+                                                <div class="filter-tags ft-list">
+                                                    <input id="check-a2" type="checkbox" name="check">
+                                                    <label for="check-a2">من با سیاست حفظ حریم خصوصی <a href="#">موافقم</a></label>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="filter-tags ft-list">
+                                                    <input id="check-a" type="checkbox" name="check">
+                                                    <label for="check-a">شرایط را <a href="#">قبول دارم</a></label>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <button type="submit" class="btn float-btn color2-bg"> ثبت نام  <i class="fas fa-caret-left"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--tab end -->
+                            </div>
+                            <!--tabs end -->
+                            <div class="log-separator fl-wrap"><span>یا</span></div>
+                            <div class="soc-log fl-wrap">
+                                <p>برای ورود سریع یا ثبت نام از حساب اجتماعی خود استفاده کنید.</p>
+                                <a href="#" class="facebook-log"> فیسبوک</a>
+                            </div>
+                            <div class="wave-bg">
+                                <div class='wave -one'></div>
+                                <div class='wave -two'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--register form end -->
+            <a class="to-top"><i class="fas fa-caret-up"></i></a>     
+        </div>
+        <!-- Main end -->
+        <!--=============== scripts  ===============-->
+        <script src="js\jquery.min.js"></script>
+        <script src="js\plugins.js"></script>
+        <script src="js\scripts.js"></script>
+        <script src="js\pjs.js"></script>
+    </body>
+</html>
